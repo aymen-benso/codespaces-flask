@@ -23,7 +23,7 @@ def fetch_and_scrape(query):
 
 def rewrite_query_with_gpt(original_query):
     client = OpenAI(
-        api_key="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",
+        api_key="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",
         organization='org-yui7Ie8osHV9jytpHdWaIdRv',
     )
     response = client.chat.completions.create(
@@ -41,7 +41,7 @@ def rewrite_query_with_gpt(original_query):
 
 def process_with_gpt(query, scraped_data,gptv):
     client = OpenAI(
-        api_key="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",
+        api_key="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",
         organization='org-yui7Ie8osHV9jytpHdWaIdRv',
     )
 
